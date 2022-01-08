@@ -566,7 +566,7 @@
                         ]
                     },
                     {
-                        "description": "left_control + u -> left_control + left_arrow (home)",
+                        "description": "left_control + u -> fn + left_arrow (home)",
                         "manipulators": [
                             {
                                 "from": {
@@ -581,7 +581,7 @@
                                     {
                                         "key_code": "left_arrow",
                                         "modifiers": [
-                                            "left_control"
+                                            "fn"
                                         ],
                                         "repeat": true
                                     }
@@ -591,7 +591,7 @@
                         ]
                     },
                     {
-                        "description": "left_shift + left_control + u -> left_shift + left_control + left_arrow (home)",
+                        "description": "left_shift + left_control + u -> left_shift + fn + left_arrow (home)",
                         "manipulators": [
                             {
                                 "from": {
@@ -607,7 +607,7 @@
                                     {
                                         "key_code": "left_arrow",
                                         "modifiers": [
-                                            "left_control",
+                                            "fn",
                                             "left_shift"
                                         ],
                                         "repeat": true
@@ -618,7 +618,7 @@
                         ]
                     },
                     {
-                        "description": "left_control + o -> left_control + right_arrow (end)",
+                        "description": "left_control + o -> fn + right_arrow (end)",
                         "manipulators": [
                             {
                                 "from": {
@@ -633,7 +633,7 @@
                                     {
                                         "key_code": "right_arrow",
                                         "modifiers": [
-                                            "left_control"
+                                            "fn"
                                         ],
                                         "repeat": true
                                     }
@@ -643,7 +643,7 @@
                         ]
                     },
                     {
-                        "description": "left_shift + left_control + o -> left_shift + left_control + right_arrow (end)",
+                        "description": "left_shift + left_control + o -> left_shift + fn + right_arrow (end)",
                         "manipulators": [
                             {
                                 "from": {
@@ -660,7 +660,7 @@
                                         "key_code": "right_arrow",
                                         "modifiers": [
                                             "left_shift",
-                                            "left_control"
+                                            "fn"
                                         ],
                                         "repeat": true
                                     }
